@@ -1,0 +1,667 @@
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <style type="text/css">
+      <!--
+      table { padding: 0px; margin: 0px; }
+      tr    { padding: 0px; margin: 0px; }
+      td    { padding: 0px; margin: 0px; }
+      img   { padding: 0px; margin: 0px; }
+      -->  
+    </style>
+    <script type="text/javascript">
+      <!--
+      function setimg(filename, x, y) {
+
+        var x_str;
+        x_str = ("00" + x);
+        x_str = x_str.substr(x_str.length - 2, 2);
+
+        var y_str;
+        y_str = ("00" + y);
+        y_str = y_str.substr(y_str.length - 2, 2);
+
+        var id_str = "#" + "x" + x_str + "y" + y_str;
+        $(id_str).attr("src", filename);
+      };
+
+      function eval_func() {
+        var code = $('#code').val();
+        eval(code);
+      };
+
+      function init() {
+        $("#btn_eval").click(eval_func);
+      };
+      -->
+    </script>
+  </head>
+  <body onload="init()">
+    <table border="0" cellspacing="0">
+      <tr>
+       <td><img id="x00y00" src="001.bmp"></td>
+       <td><img id="x01y00" src="002.bmp"></td>
+       <td><img id="x02y00" src="003.bmp"></td>
+       <td><img id="x03y00" src="004.bmp"></td>
+       <td><img id="x04y00" src="005.bmp"></td>
+       <td><img id="x05y00" src="006.bmp"></td>
+       <td><img id="x06y00" src="007.bmp"></td>
+       <td><img id="x07y00" src="008.bmp"></td>
+       <td><img id="x08y00" src="009.bmp"></td>
+       <td><img id="x09y00" src="010.bmp"></td>
+       <td><img id="x10y00" src="011.bmp"></td>
+       <td><img id="x11y00" src="012.bmp"></td>
+       <td><img id="x12y00" src="013.bmp"></td>
+       <td><img id="x13y00" src="014.bmp"></td>
+       <td><img id="x14y00" src="015.bmp"></td>
+       <td><img id="x15y00" src="016.bmp"></td>
+       <td><img id="x16y00" src="017.bmp"></td>
+      </tr>
+      <tr>
+       <td><img id="x00y01" src="018.bmp"></td>
+       <td><img id="x01y01" src="019.bmp"></td>
+       <td><img id="x02y01" src="020.bmp"></td>
+       <td><img id="x03y01" src="021.bmp"></td>
+       <td><img id="x04y01" src="022.bmp"></td>
+       <td><img id="x05y01" src="023.bmp"></td>
+       <td><img id="x06y01" src="024.bmp"></td>
+       <td><img id="x07y01" src="025.bmp"></td>
+       <td><img id="x08y01" src="026.bmp"></td>
+       <td><img id="x09y01" src="027.bmp"></td>
+       <td><img id="x10y01" src="028.bmp"></td>
+       <td><img id="x11y01" src="029.bmp"></td>
+       <td><img id="x12y01" src="030.bmp"></td>
+       <td><img id="x13y01" src="031.bmp"></td>
+       <td><img id="x14y01" src="032.bmp"></td>
+       <td><img id="x15y01" src="033.bmp"></td>
+       <td><img id="x16y01" src="034.bmp"></td>
+      </tr>
+      <tr>
+       <td><img id="x00y02" src="035.bmp"></td>
+       <td><img id="x01y02" src="036.bmp"></td>
+       <td><img id="x02y02" src="037.bmp"></td>
+       <td><img id="x03y02" src="038.bmp"></td>
+       <td><img id="x04y02" src="039.bmp"></td>
+       <td><img id="x05y02" src="040.bmp"></td>
+       <td><img id="x06y02" src="041.bmp"></td>
+       <td><img id="x07y02" src="042.bmp"></td>
+       <td><img id="x08y02" src="043.bmp"></td>
+       <td><img id="x09y02" src="044.bmp"></td>
+       <td><img id="x10y02" src="045.bmp"></td>
+       <td><img id="x11y02" src="046.bmp"></td>
+       <td><img id="x12y02" src="047.bmp"></td>
+       <td><img id="x13y02" src="048.bmp"></td>
+       <td><img id="x14y02" src="049.bmp"></td>
+       <td><img id="x15y02" src="050.bmp"></td>
+       <td><img id="x16y02" src="051.bmp"></td>
+      </tr>
+      <tr>
+       <td><img id="x00y03" src="052.bmp"></td>
+       <td><img id="x01y03" src="053.bmp"></td>
+       <td><img id="x02y03" src="054.bmp"></td>
+       <td><img id="x03y03" src="055.bmp"></td>
+       <td><img id="x04y03" src="056.bmp"></td>
+       <td><img id="x05y03" src="057.bmp"></td>
+       <td><img id="x06y03" src="058.bmp"></td>
+       <td><img id="x07y03" src="059.bmp"></td>
+       <td><img id="x08y03" src="060.bmp"></td>
+       <td><img id="x09y03" src="061.bmp"></td>
+       <td><img id="x10y03" src="062.bmp"></td>
+       <td><img id="x11y03" src="063.bmp"></td>
+       <td><img id="x12y03" src="064.bmp"></td>
+       <td><img id="x13y03" src="065.bmp"></td>
+       <td><img id="x14y03" src="066.bmp"></td>
+       <td><img id="x15y03" src="067.bmp"></td>
+       <td><img id="x16y03" src="068.bmp"></td>
+      </tr>
+      <tr>
+       <td><img id="x00y04" src="069.bmp"></td>
+       <td><img id="x01y04" src="070.bmp"></td>
+       <td><img id="x02y04" src="071.bmp"></td>
+       <td><img id="x03y04" src="072.bmp"></td>
+       <td><img id="x04y04" src="073.bmp"></td>
+       <td><img id="x05y04" src="074.bmp"></td>
+       <td><img id="x06y04" src="075.bmp"></td>
+       <td><img id="x07y04" src="076.bmp"></td>
+       <td><img id="x08y04" src="077.bmp"></td>
+       <td><img id="x09y04" src="078.bmp"></td>
+       <td><img id="x10y04" src="079.bmp"></td>
+       <td><img id="x11y04" src="080.bmp"></td>
+       <td><img id="x12y04" src="081.bmp"></td>
+       <td><img id="x13y04" src="082.bmp"></td>
+       <td><img id="x14y04" src="083.bmp"></td>
+       <td><img id="x15y04" src="084.bmp"></td>
+       <td><img id="x16y04" src="085.bmp"></td>
+      </tr>
+      <tr>
+       <td><img id="x00y05" src="086.bmp"></td>
+       <td><img id="x01y05" src="087.bmp"></td>
+       <td><img id="x02y05" src="088.bmp"></td>
+       <td><img id="x03y05" src="089.bmp"></td>
+       <td><img id="x04y05" src="090.bmp"></td>
+       <td><img id="x05y05" src="091.bmp"></td>
+       <td><img id="x06y05" src="092.bmp"></td>
+       <td><img id="x07y05" src="093.bmp"></td>
+       <td><img id="x08y05" src="094.bmp"></td>
+       <td><img id="x09y05" src="095.bmp"></td>
+       <td><img id="x10y05" src="096.bmp"></td>
+       <td><img id="x11y05" src="097.bmp"></td>
+       <td><img id="x12y05" src="098.bmp"></td>
+       <td><img id="x13y05" src="099.bmp"></td>
+       <td><img id="x14y05" src="100.bmp"></td>
+       <td><img id="x15y05" src="101.bmp"></td>
+       <td><img id="x16y05" src="102.bmp"></td>
+      </tr>
+      <tr>
+       <td><img id="x00y06" src="103.bmp"></td>
+       <td><img id="x01y06" src="104.bmp"></td>
+       <td><img id="x02y06" src="105.bmp"></td>
+       <td><img id="x03y06" src="106.bmp"></td>
+       <td><img id="x04y06" src="107.bmp"></td>
+       <td><img id="x05y06" src="108.bmp"></td>
+       <td><img id="x06y06" src="109.bmp"></td>
+       <td><img id="x07y06" src="110.bmp"></td>
+       <td><img id="x08y06" src="111.bmp"></td>
+       <td><img id="x09y06" src="112.bmp"></td>
+       <td><img id="x10y06" src="113.bmp"></td>
+       <td><img id="x11y06" src="114.bmp"></td>
+       <td><img id="x12y06" src="115.bmp"></td>
+       <td><img id="x13y06" src="116.bmp"></td>
+       <td><img id="x14y06" src="117.bmp"></td>
+       <td><img id="x15y06" src="118.bmp"></td>
+       <td><img id="x16y06" src="119.bmp"></td>
+      </tr>
+      <tr>
+       <td><img id="x00y07" src="120.bmp"></td>
+       <td><img id="x01y07" src="121.bmp"></td>
+       <td><img id="x02y07" src="122.bmp"></td>
+       <td><img id="x03y07" src="123.bmp"></td>
+       <td><img id="x04y07" src="124.bmp"></td>
+       <td><img id="x05y07" src="125.bmp"></td>
+       <td><img id="x06y07" src="126.bmp"></td>
+       <td><img id="x07y07" src="127.bmp"></td>
+       <td><img id="x08y07" src="128.bmp"></td>
+       <td><img id="x09y07" src="129.bmp"></td>
+       <td><img id="x10y07" src="130.bmp"></td>
+       <td><img id="x11y07" src="131.bmp"></td>
+       <td><img id="x12y07" src="132.bmp"></td>
+       <td><img id="x13y07" src="133.bmp"></td>
+       <td><img id="x14y07" src="134.bmp"></td>
+       <td><img id="x15y07" src="135.bmp"></td>
+       <td><img id="x16y07" src="136.bmp"></td>
+      </tr>
+      <tr>
+       <td><img id="x00y08" src="137.bmp"></td>
+       <td><img id="x01y08" src="138.bmp"></td>
+       <td><img id="x02y08" src="139.bmp"></td>
+       <td><img id="x03y08" src="140.bmp"></td>
+       <td><img id="x04y08" src="141.bmp"></td>
+       <td><img id="x05y08" src="142.bmp"></td>
+       <td><img id="x06y08" src="143.bmp"></td>
+       <td><img id="x07y08" src="144.bmp"></td>
+       <td><img id="x08y08" src="145.bmp"></td>
+       <td><img id="x09y08" src="146.bmp"></td>
+       <td><img id="x10y08" src="147.bmp"></td>
+       <td><img id="x11y08" src="148.bmp"></td>
+       <td><img id="x12y08" src="149.bmp"></td>
+       <td><img id="x13y08" src="150.bmp"></td>
+       <td><img id="x14y08" src="151.bmp"></td>
+       <td><img id="x15y08" src="152.bmp"></td>
+       <td><img id="x16y08" src="153.bmp"></td>
+      </tr>
+      <tr>
+       <td><img id="x00y09" src="154.bmp"></td>
+       <td><img id="x01y09" src="155.bmp"></td>
+       <td><img id="x02y09" src="156.bmp"></td>
+       <td><img id="x03y09" src="157.bmp"></td>
+       <td><img id="x04y09" src="158.bmp"></td>
+       <td><img id="x05y09" src="159.bmp"></td>
+       <td><img id="x06y09" src="160.bmp"></td>
+       <td><img id="x07y09" src="161.bmp"></td>
+       <td><img id="x08y09" src="162.bmp"></td>
+       <td><img id="x09y09" src="163.bmp"></td>
+       <td><img id="x10y09" src="164.bmp"></td>
+       <td><img id="x11y09" src="165.bmp"></td>
+       <td><img id="x12y09" src="166.bmp"></td>
+       <td><img id="x13y09" src="167.bmp"></td>
+       <td><img id="x14y09" src="168.bmp"></td>
+       <td><img id="x15y09" src="169.bmp"></td>
+       <td><img id="x16y09" src="170.bmp"></td>
+      </tr>
+      <tr>
+       <td><img id="x00y10" src="171.bmp"></td>
+       <td><img id="x01y10" src="172.bmp"></td>
+       <td><img id="x02y10" src="173.bmp"></td>
+       <td><img id="x03y10" src="174.bmp"></td>
+       <td><img id="x04y10" src="175.bmp"></td>
+       <td><img id="x05y10" src="176.bmp"></td>
+       <td><img id="x06y10" src="177.bmp"></td>
+       <td><img id="x07y10" src="178.bmp"></td>
+       <td><img id="x08y10" src="179.bmp"></td>
+       <td><img id="x09y10" src="180.bmp"></td>
+       <td><img id="x10y10" src="181.bmp"></td>
+       <td><img id="x11y10" src="182.bmp"></td>
+       <td><img id="x12y10" src="183.bmp"></td>
+       <td><img id="x13y10" src="184.bmp"></td>
+       <td><img id="x14y10" src="185.bmp"></td>
+       <td><img id="x15y10" src="186.bmp"></td>
+       <td><img id="x16y10" src="187.bmp"></td>
+      </tr>
+      <tr>
+       <td><img id="x00y11" src="188.bmp"></td>
+       <td><img id="x01y11" src="189.bmp"></td>
+       <td><img id="x02y11" src="190.bmp"></td>
+       <td><img id="x03y11" src="191.bmp"></td>
+       <td><img id="x04y11" src="192.bmp"></td>
+       <td><img id="x05y11" src="193.bmp"></td>
+       <td><img id="x06y11" src="194.bmp"></td>
+       <td><img id="x07y11" src="195.bmp"></td>
+       <td><img id="x08y11" src="196.bmp"></td>
+       <td><img id="x09y11" src="197.bmp"></td>
+       <td><img id="x10y11" src="198.bmp"></td>
+       <td><img id="x11y11" src="199.bmp"></td>
+       <td><img id="x12y11" src="200.bmp"></td>
+       <td><img id="x13y11" src="201.bmp"></td>
+       <td><img id="x14y11" src="202.bmp"></td>
+       <td><img id="x15y11" src="203.bmp"></td>
+       <td><img id="x16y11" src="204.bmp"></td>
+      </tr>
+      <tr>
+       <td><img id="x00y12" src="205.bmp"></td>
+       <td><img id="x01y12" src="206.bmp"></td>
+       <td><img id="x02y12" src="207.bmp"></td>
+       <td><img id="x03y12" src="208.bmp"></td>
+       <td><img id="x04y12" src="209.bmp"></td>
+       <td><img id="x05y12" src="210.bmp"></td>
+       <td><img id="x06y12" src="211.bmp"></td>
+       <td><img id="x07y12" src="212.bmp"></td>
+       <td><img id="x08y12" src="213.bmp"></td>
+       <td><img id="x09y12" src="214.bmp"></td>
+       <td><img id="x10y12" src="215.bmp"></td>
+       <td><img id="x11y12" src="216.bmp"></td>
+       <td><img id="x12y12" src="217.bmp"></td>
+       <td><img id="x13y12" src="218.bmp"></td>
+       <td><img id="x14y12" src="219.bmp"></td>
+       <td><img id="x15y12" src="220.bmp"></td>
+       <td><img id="x16y12" src="221.bmp"></td>
+      </tr>
+      <tr>
+       <td><img id="x00y13" src="222.bmp"></td>
+       <td><img id="x01y13" src="223.bmp"></td>
+       <td><img id="x02y13" src="224.bmp"></td>
+       <td><img id="x03y13" src="225.bmp"></td>
+       <td><img id="x04y13" src="226.bmp"></td>
+       <td><img id="x05y13" src="227.bmp"></td>
+       <td><img id="x06y13" src="228.bmp"></td>
+       <td><img id="x07y13" src="229.bmp"></td>
+       <td><img id="x08y13" src="230.bmp"></td>
+       <td><img id="x09y13" src="231.bmp"></td>
+       <td><img id="x10y13" src="232.bmp"></td>
+       <td><img id="x11y13" src="233.bmp"></td>
+       <td><img id="x12y13" src="234.bmp"></td>
+       <td><img id="x13y13" src="235.bmp"></td>
+       <td><img id="x14y13" src="236.bmp"></td>
+       <td><img id="x15y13" src="237.bmp"></td>
+       <td><img id="x16y13" src="238.bmp"></td>
+      </tr>
+      <tr>
+       <td><img id="x00y14" src="239.bmp"></td>
+       <td><img id="x01y14" src="240.bmp"></td>
+       <td><img id="x02y14" src="241.bmp"></td>
+       <td><img id="x03y14" src="242.bmp"></td>
+       <td><img id="x04y14" src="243.bmp"></td>
+       <td><img id="x05y14" src="244.bmp"></td>
+       <td><img id="x06y14" src="245.bmp"></td>
+       <td><img id="x07y14" src="246.bmp"></td>
+       <td><img id="x08y14" src="247.bmp"></td>
+       <td><img id="x09y14" src="248.bmp"></td>
+       <td><img id="x10y14" src="249.bmp"></td>
+       <td><img id="x11y14" src="250.bmp"></td>
+       <td><img id="x12y14" src="251.bmp"></td>
+       <td><img id="x13y14" src="252.bmp"></td>
+       <td><img id="x14y14" src="253.bmp"></td>
+       <td><img id="x15y14" src="254.bmp"></td>
+       <td><img id="x16y14" src="255.bmp"></td>
+      </tr>
+      <tr>
+       <td><img id="x00y15" src="256.bmp"></td>
+       <td><img id="x01y15" src="257.bmp"></td>
+       <td><img id="x02y15" src="258.bmp"></td>
+       <td><img id="x03y15" src="259.bmp"></td>
+       <td><img id="x04y15" src="260.bmp"></td>
+       <td><img id="x05y15" src="261.bmp"></td>
+       <td><img id="x06y15" src="262.bmp"></td>
+       <td><img id="x07y15" src="263.bmp"></td>
+       <td><img id="x08y15" src="264.bmp"></td>
+       <td><img id="x09y15" src="265.bmp"></td>
+       <td><img id="x10y15" src="266.bmp"></td>
+       <td><img id="x11y15" src="267.bmp"></td>
+       <td><img id="x12y15" src="268.bmp"></td>
+       <td><img id="x13y15" src="269.bmp"></td>
+       <td><img id="x14y15" src="270.bmp"></td>
+       <td><img id="x15y15" src="271.bmp"></td>
+       <td><img id="x16y15" src="272.bmp"></td>
+      </tr>
+      <tr>
+       <td><img id="x00y16" src="273.bmp"></td>
+       <td><img id="x01y16" src="274.bmp"></td>
+       <td><img id="x02y16" src="275.bmp"></td>
+       <td><img id="x03y16" src="276.bmp"></td>
+       <td><img id="x04y16" src="277.bmp"></td>
+       <td><img id="x05y16" src="278.bmp"></td>
+       <td><img id="x06y16" src="279.bmp"></td>
+       <td><img id="x07y16" src="280.bmp"></td>
+       <td><img id="x08y16" src="281.bmp"></td>
+       <td><img id="x09y16" src="282.bmp"></td>
+       <td><img id="x10y16" src="283.bmp"></td>
+       <td><img id="x11y16" src="284.bmp"></td>
+       <td><img id="x12y16" src="285.bmp"></td>
+       <td><img id="x13y16" src="286.bmp"></td>
+       <td><img id="x14y16" src="287.bmp"></td>
+       <td><img id="x15y16" src="288.bmp"></td>
+       <td><img id="x16y16" src="289.bmp"></td>
+      </tr>
+    </table>
+    <br>
+    <br>
+<pre>
+(1) テーブルの画像を差し替えるためのsetimg(filename, x, y);の関数を用意している。
+(2) x, yは座標0〜16の範囲で指定。左上が(0,0)、右上が(16,0), 左下が(0,16), 右下が(16,16)
+(3) コードを書いてevalボタンを押すとコードが実行される。
+</pre>
+<textarea id="code" rows="20" cols="80">
+setimg("011.bmp", 0, 0);
+setimg("210.bmp", 1, 0);
+setimg("048.bmp", 2, 0);
+setimg("102.bmp", 3, 0);
+setimg("281.bmp", 4, 0);
+setimg("075.bmp", 5, 0);
+setimg("137.bmp", 6, 0);
+setimg("167.bmp", 7, 0);
+setimg("001.bmp", 8, 0);
+setimg("252.bmp", 9, 0);
+setimg("013.bmp", 10, 0);
+setimg("221.bmp", 11, 0);
+setimg("236.bmp", 12, 0);
+setimg("057.bmp", 13, 0);
+setimg("040.bmp", 14, 0);
+setimg("120.bmp", 15, 0);
+setimg("118.bmp", 16, 0);
+setimg("089.bmp", 0, 1);
+setimg("226.bmp", 1, 1);
+setimg("169.bmp", 2, 1);
+setimg("198.bmp", 3, 1);
+setimg("084.bmp", 4, 1);
+setimg("064.bmp", 5, 1);
+setimg("044.bmp", 6, 1);
+setimg("238.bmp", 7, 1);
+setimg("128.bmp", 8, 1);
+setimg("043.bmp", 9, 1);
+setimg("268.bmp", 10, 1);
+setimg("097.bmp", 11, 1);
+setimg("006.bmp", 12, 1);
+setimg("126.bmp", 13, 1);
+setimg("010.bmp", 14, 1);
+setimg("181.bmp", 15, 1);
+setimg("178.bmp", 16, 1);
+setimg("177.bmp", 0, 2);
+setimg("088.bmp", 1, 2);
+setimg("062.bmp", 2, 2);
+setimg("154.bmp", 3, 2);
+setimg("107.bmp", 4, 2);
+setimg("024.bmp", 5, 2);
+setimg("286.bmp", 6, 2);
+setimg("103.bmp", 7, 2);
+setimg("117.bmp", 8, 2);
+setimg("155.bmp", 9, 2);
+setimg("096.bmp", 10, 2);
+setimg("263.bmp", 11, 2);
+setimg("243.bmp", 12, 2);
+setimg("046.bmp", 13, 2);
+setimg("279.bmp", 14, 2);
+setimg("165.bmp", 15, 2);
+setimg("209.bmp", 16, 2);
+setimg("076.bmp", 0, 3);
+setimg("110.bmp", 1, 3);
+setimg("153.bmp", 2, 3);
+setimg("188.bmp", 3, 3);
+setimg("217.bmp", 4, 3);
+setimg("164.bmp", 5, 3);
+setimg("106.bmp", 6, 3);
+setimg("091.bmp", 7, 3);
+setimg("004.bmp", 8, 3);
+setimg("034.bmp", 9, 3);
+setimg("025.bmp", 10, 3);
+setimg("197.bmp", 11, 3);
+setimg("052.bmp", 12, 3);
+setimg("020.bmp", 13, 3);
+setimg("187.bmp", 14, 3);
+setimg("196.bmp", 15, 3);
+setimg("122.bmp", 16, 3);
+setimg("283.bmp", 0, 4);
+setimg("138.bmp", 1, 4);
+setimg("148.bmp", 2, 4);
+setimg("215.bmp", 3, 4);
+setimg("269.bmp", 4, 4);
+setimg("174.bmp", 5, 4);
+setimg("132.bmp", 6, 4);
+setimg("083.bmp", 7, 4);
+setimg("026.bmp", 8, 4);
+setimg("005.bmp", 9, 4);
+setimg("288.bmp", 10, 4);
+setimg("280.bmp", 11, 4);
+setimg("186.bmp", 12, 4);
+setimg("047.bmp", 13, 4);
+setimg("204.bmp", 14, 4);
+setimg("211.bmp", 15, 4);
+setimg("022.bmp", 16, 4);
+setimg("159.bmp", 0, 5);
+setimg("079.bmp", 1, 5);
+setimg("285.bmp", 2, 5);
+setimg("242.bmp", 3, 5);
+setimg("230.bmp", 4, 5);
+setimg("041.bmp", 5, 5);
+setimg("222.bmp", 6, 5);
+setimg("127.bmp", 7, 5);
+setimg("244.bmp", 8, 5);
+setimg("201.bmp", 9, 5);
+setimg("019.bmp", 10, 5);
+setimg("199.bmp", 11, 5);
+setimg("069.bmp", 12, 5);
+setimg("214.bmp", 13, 5);
+setimg("067.bmp", 14, 5);
+setimg("099.bmp", 15, 5);
+setimg("282.bmp", 16, 5);
+setimg("183.bmp", 0, 6);
+setimg("264.bmp", 1, 6);
+setimg("189.bmp", 2, 6);
+setimg("193.bmp", 3, 6);
+setimg("094.bmp", 4, 6);
+setimg("071.bmp", 5, 6);
+setimg("072.bmp", 6, 6);
+setimg("111.bmp", 7, 6);
+setimg("240.bmp", 8, 6);
+setimg("031.bmp", 9, 6);
+setimg("247.bmp", 10, 6);
+setimg("205.bmp", 11, 6);
+setimg("009.bmp", 12, 6);
+setimg("136.bmp", 13, 6);
+setimg("202.bmp", 14, 6);
+setimg("245.bmp", 15, 6);
+setimg("206.bmp", 16, 6);
+setimg("258.bmp", 0, 7);
+setimg("194.bmp", 1, 7);
+setimg("042.bmp", 2, 7);
+setimg("275.bmp", 3, 7);
+setimg("061.bmp", 4, 7);
+setimg("207.bmp", 5, 7);
+setimg("141.bmp", 6, 7);
+setimg("249.bmp", 7, 7);
+setimg("228.bmp", 8, 7);
+setimg("254.bmp", 9, 7);
+setimg("271.bmp", 10, 7);
+setimg("147.bmp", 11, 7);
+setimg("135.bmp", 12, 7);
+setimg("171.bmp", 13, 7);
+setimg("235.bmp", 14, 7);
+setimg("095.bmp", 15, 7);
+setimg("234.bmp", 16, 7);
+setimg("184.bmp", 0, 8);
+setimg("152.bmp", 1, 8);
+setimg("157.bmp", 2, 8);
+setimg("219.bmp", 3, 8);
+setimg("175.bmp", 4, 8);
+setimg("166.bmp", 5, 8);
+setimg("077.bmp", 6, 8);
+setimg("014.bmp", 7, 8);
+setimg("260.bmp", 8, 8);
+setimg("023.bmp", 9, 8);
+setimg("055.bmp", 10, 8);
+setimg("203.bmp", 11, 8);
+setimg("220.bmp", 12, 8);
+setimg("012.bmp", 13, 8);
+setimg("289.bmp", 14, 8);
+setimg("156.bmp", 15, 8);
+setimg("134.bmp", 16, 8);
+setimg("176.bmp", 0, 9);
+setimg("018.bmp", 1, 9);
+setimg("038.bmp", 2, 9);
+setimg("045.bmp", 3, 9);
+setimg("216.bmp", 4, 9);
+setimg("085.bmp", 5, 9);
+setimg("036.bmp", 6, 9);
+setimg("131.bmp", 7, 9);
+setimg("053.bmp", 8, 9);
+setimg("112.bmp", 9, 9);
+setimg("191.bmp", 10, 9);
+setimg("262.bmp", 11, 9);
+setimg("223.bmp", 12, 9);
+setimg("250.bmp", 13, 9);
+setimg("054.bmp", 14, 9);
+setimg("255.bmp", 15, 9);
+setimg("276.bmp", 16, 9);
+setimg("087.bmp", 0, 10);
+setimg("195.bmp", 1, 10);
+setimg("251.bmp", 2, 10);
+setimg("172.bmp", 3, 10);
+setimg("241.bmp", 4, 10);
+setimg("125.bmp", 5, 10);
+setimg("266.bmp", 6, 10);
+setimg("073.bmp", 7, 10);
+setimg("160.bmp", 8, 10);
+setimg("068.bmp", 9, 10);
+setimg("066.bmp", 10, 10);
+setimg("272.bmp", 11, 10);
+setimg("129.bmp", 12, 10);
+setimg("056.bmp", 13, 10);
+setimg("142.bmp", 14, 10);
+setimg("030.bmp", 15, 10);
+setimg("114.bmp", 16, 10);
+setimg("070.bmp", 0, 11);
+setimg("256.bmp", 1, 11);
+setimg("108.bmp", 2, 11);
+setimg("078.bmp", 3, 11);
+setimg("146.bmp", 4, 11);
+setimg("163.bmp", 5, 11);
+setimg("232.bmp", 6, 11);
+setimg("029.bmp", 7, 11);
+setimg("267.bmp", 8, 11);
+setimg("274.bmp", 9, 11);
+setimg("017.bmp", 10, 11);
+setimg("190.bmp", 11, 11);
+setimg("008.bmp", 12, 11);
+setimg("212.bmp", 13, 11);
+setimg("123.bmp", 14, 11);
+setimg("150.bmp", 15, 11);
+setimg("208.bmp", 16, 11);
+setimg("027.bmp", 0, 12);
+setimg("104.bmp", 1, 12);
+setimg("082.bmp", 2, 12);
+setimg("229.bmp", 3, 12);
+setimg("224.bmp", 4, 12);
+setimg("119.bmp", 5, 12);
+setimg("161.bmp", 6, 12);
+setimg("116.bmp", 7, 12);
+setimg("074.bmp", 8, 12);
+setimg("113.bmp", 9, 12);
+setimg("090.bmp", 10, 12);
+setimg("124.bmp", 11, 12);
+setimg("133.bmp", 12, 12);
+setimg("185.bmp", 13, 12);
+setimg("225.bmp", 14, 12);
+setimg("237.bmp", 15, 12);
+setimg("032.bmp", 16, 12);
+setimg("265.bmp", 0, 13);
+setimg("051.bmp", 1, 13);
+setimg("060.bmp", 2, 13);
+setimg("162.bmp", 3, 13);
+setimg("192.bmp", 4, 13);
+setimg("284.bmp", 5, 13);
+setimg("081.bmp", 6, 13);
+setimg("257.bmp", 7, 13);
+setimg("270.bmp", 8, 13);
+setimg("149.bmp", 9, 13);
+setimg("121.bmp", 10, 13);
+setimg("021.bmp", 11, 13);
+setimg("063.bmp", 12, 13);
+//setimg("       ", 13, 13);
+setimg("139.bmp", 14, 13);
+setimg("261.bmp", 15, 13);
+setimg("140.bmp", 16, 13);
+setimg("246.bmp", 0, 14);
+setimg("170.bmp", 1, 14);
+setimg("259.bmp", 2, 14);
+setimg("050.bmp", 3, 14);
+setimg("098.bmp", 4, 14);
+setimg("003.bmp", 5, 14);
+setimg("065.bmp", 6, 14);
+setimg("039.bmp", 7, 14);
+setimg("233.bmp", 8, 14);
+setimg("115.bmp", 9, 14);
+setimg("093.bmp", 10, 14);
+setimg("200.bmp", 11, 14);
+setimg("173.bmp", 12, 14);
+setimg("105.bmp", 13, 14);
+setimg("168.bmp", 14, 14);
+setimg("239.bmp", 15, 14);
+setimg("151.bmp", 16, 14);
+setimg("059.bmp", 0, 15);
+setimg("277.bmp", 1, 15);
+setimg("100.bmp", 2, 15);
+setimg("033.bmp", 3, 15);
+setimg("227.bmp", 4, 15);
+setimg("143.bmp", 5, 15);
+setimg("287.bmp", 6, 15);
+setimg("182.bmp", 7, 15);
+setimg("037.bmp", 8, 15);
+setimg("002.bmp", 9, 15);
+setimg("035.bmp", 10, 15);
+setimg("080.bmp", 11, 15);
+setimg("278.bmp", 12, 15);
+setimg("145.bmp", 13, 15);
+setimg("179.bmp", 14, 15);
+setimg("130.bmp", 15, 15);
+setimg("218.bmp", 16, 15);
+setimg("007.bmp", 0, 16);
+setimg("253.bmp", 1, 16);
+setimg("213.bmp", 2, 16);
+setimg("049.bmp", 3, 16);
+setimg("028.bmp", 4, 16);
+setimg("231.bmp", 5, 16);
+setimg("058.bmp", 6, 16);
+setimg("144.bmp", 7, 16);
+setimg("273.bmp", 8, 16);
+setimg("101.bmp", 9, 16);
+setimg("158.bmp", 10, 16);
+setimg("086.bmp", 11, 16);
+setimg("092.bmp", 12, 16);
+setimg("016.bmp", 13, 16);
+setimg("015.bmp", 14, 16);
+setimg("109.bmp", 15, 16);
+setimg("248.bmp", 16, 16);
+setimg("180.bmp", 0, 17);
+</textarea>
+<input id="btn_eval" type="button" name="eval" value="eval">
+  </body>
+</html>
